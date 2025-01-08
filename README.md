@@ -1,40 +1,41 @@
-# Simple Machine Learning Project
+# Projeto Simples de Machine Learning
 
-This project implements an unsupervised learning approach using a dataset with various features. The main objective is to analyze the data, apply clustering algorithms, and interpret the results.
+Este projeto implementa uma abordagem de aprendizado não supervisionado usando um conjunto de dados com várias características. O objetivo principal é analisar os dados, aplicar algoritmos de agrupamento e interpretar os resultados.
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
 simple-ml-project
 ├── data
-│   └── dataset.csv          # Dataset used for unsupervised learning
+│   ├── clustered_data.csv    # Dados agrupados gerados pelo projeto
+│   ├── parameters.csv        # Parâmetros usados para treinar o modelo
+│   └── random_data.csv       # Dados aleatórios gerados para experimentos
 ├── src
-│   ├── data_selection.py     # Functions for loading and preprocessing the dataset
-│   ├── model_application.py   # Implementation of the unsupervised learning model
-│   ├── result_analysis.py     # Functions for interpreting and visualizing results
-│   └── __init__.py           # Marks the src directory as a Python package
-├── requirements.txt          # Lists necessary Python libraries
-└── README.md                 # Documentation for the project
+│   ├── data_processing.py    # Funções para carregar, gerar e processar dados
+│   ├── main.py               # Script principal para executar o projeto
+│   ├── visualization.py      # Funções para visualizar os resultados
+│   └── __init__.py           # Marca o diretório src como um pacote Python
+├── requirements.txt          # Lista as bibliotecas Python necessárias
+└── README.md                 # Documentação do projeto
 ```
 
-## Installation
+## Instalação
 
-To set up the project, clone the repository and install the required libraries:
+Para configurar o projeto, clone o repositório e instale as bibliotecas necessárias:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+## Uso
 
-1. **Data Selection**: Run `data_selection.py` to load and preprocess the dataset.
-2. **Model Application**: Execute `model_application.py` to apply the clustering algorithm on the selected data.
-3. **Result Analysis**: Use `result_analysis.py` to visualize and interpret the clustering results.
+1. **Gerar Dados Aleatórios**: Execute `main.py` para gerar dados aleatórios e treinar o modelo.
+2. **Treinar Modelo**: O modelo é treinado usando os dados de `parameters.csv`.
+3. **Prever Taxas de Sobrevivência**: O script irá prever as taxas de sobrevivência para diferentes coordenadas e forças de bombas.
+4. **Visualizar Clusters**: Os resultados serão visualizados, mostrando os clusters e as taxas de sobrevivência.
 
-## Participants
+## Participantes
 
-- [Your Name]
-- [Collaborator's Name]
-- [Additional Names] 
-
-Feel free to modify the project as needed and contribute to its development!
+- Henry Goes Zanin
+- Mateus redivo
+- Isaac Machado
