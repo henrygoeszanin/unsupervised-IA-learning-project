@@ -9,7 +9,13 @@ def generate_data(num_records):
         idade = random.randint(18, 90)  # Idades entre 18 e 90
         salario = int((idade - 18) / (90 - 18) * (30000 - 1000) + 1000)  # Salário proporcional à idade
         score_cpf = random.randint(300, 900)  # Score CPF entre 300 e 900
-        divida_cpf = random.randint(0, 20000)  # Dívida CPF entre 0 e 20000
+        
+        # Ajustar a dívida com base na idade e no salário
+        if idade > 60 and salario < 15000:
+            divida_cpf = random.randint(10000, 20000)  # Dívida maior para idade avançada e salário baixo
+        else:
+            divida_cpf = random.randint(0, 10000)  # Dívida menor para outras condições
+        
         credito = int((idade - 18) / (90 - 18) * (20000 - 0) + 0)  # Crédito proporcional à idade
         data.append([idade, salario, score_cpf, divida_cpf, credito])
     return data
