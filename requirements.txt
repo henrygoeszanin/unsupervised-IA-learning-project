@@ -1,2 +1,3 @@
 pandas
-mlxtend
+scikit-learn
+joblib
