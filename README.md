@@ -8,7 +8,6 @@ Este projeto implementa uma abordagem de aprendizado não supervisionado usando 
 simple-ml-project
 ├── data
 │   ├── clustered_data.csv    # Dados agrupados gerados pelo projeto
-│   ├── parameters.csv        # Parâmetros usados para treinar o modelo
 │   └── random_data.csv       # Dados aleatórios gerados para experimentos
 ├── src
 │   ├── data_processing.py    # Funções para carregar, gerar e processar dados
