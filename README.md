@@ -1,5 +1,7 @@
 # Projeto Simples de Machine Learning
 
+# Esse projeto contém 3 branchs cada uma com um projeto
+
 Este projeto implementa uma abordagem de aprendizado não supervisionado usando um conjunto de dados com várias características. O objetivo principal é analisar os dados, aplicar algoritmos de agrupamento e interpretar os resultados.
 
 ## Estrutura do Projeto
