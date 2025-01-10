@@ -22,10 +22,9 @@ Este projeto utiliza técnicas de aprendizado supervisionado para analisar e agr
 
 Certifique-se de ter as seguintes bibliotecas instaladas antes de rodar os scripts:
 
-- numpy
 - pandas
 - scikit-learn
-- matplotlib
+- joblib
 
 Você pode instalar todas as dependências usando o seguinte comando:
 ```bash
