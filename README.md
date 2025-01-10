@@ -2,7 +2,8 @@
 
 # Esse projeto contém 3 branchs cada uma com um projeto
 
-Este projeto implementa uma abordagem de aprendizado não supervisionado usando um conjunto de dados com várias características. O objetivo principal é analisar os dados, aplicar algoritmos de agrupamento e interpretar os resultados.
+Este projeto implementa uma abordagem de aprendizado supervisionado e não supervisionado usando um conjunto de dados com várias características. O objetivo principal é analisar os dados, aplicar algoritmos de agrupamento e interpretar os resultados.
+Nas outras branchs há um projeto supervisionado e um não supervisionado, sendo a branch atual um exemplo de utilização dos dois tipos.
 
 ## Estrutura do Projeto
 
