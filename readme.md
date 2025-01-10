@@ -1,6 +1,6 @@
-# Unsupervised Learning Project
+# Supervised Learning Project
 
-Este projeto utiliza técnicas de aprendizado não supervisionado para analisar e agrupar dados. O objetivo é identificar padrões ocultos nos dados sem a necessidade de rótulos pré-definidos.
+Este projeto utiliza técnicas de aprendizado supervisionado para analisar e agrupar dados. O objetivo é identificar padrões ocultos nos dados sem a necessidade de rótulos pré-definidos.
 
 ## Passos para Rodar o Projeto
 
