@@ -36,5 +36,5 @@ pip install -r requirements.txt
 ## Participantes
 
 - Henry Goes Zanin
-- Mateus redivo
+- Mateus Redivo
 - Isaac Machado
